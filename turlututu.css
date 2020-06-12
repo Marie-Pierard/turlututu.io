@@ -9,18 +9,22 @@ header{
     display:flex;
     flex-direction: row;
     background-color: RGB(51,51,51)	;
-    margin: 0px auto;
+    margin-bottom: 0px auto;
     height: 65px;
 }
 .top-left{
     display:flex;
     flex-direction: row;
-    align-content: left;
     justify-content: space-around;
+    margin-left: -100px;
+}
+.login{
+    display:block;
+    padding:20px 10px;  
 }
 header .logo-header-small{
     display:block;
-    padding:20px 100px;
+    padding:10px 100px;
 }
 #menu_bot{
     display:flex;
@@ -73,29 +77,32 @@ a {
 .perso {
     padding-bottom: 50px;
     padding-top: 40px;
-    padding-left: 25px;
+    padding-left: 120px;
 }
 .logo-cadre-1{
     display:flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 50px 200px;
-    padding-bottom: 250px;
+    padding: 85px;
+    padding-bottom: 100px;
+    margin-left: 110px;
 }
 .premier-cadre p{
     color:white;
     font-size: 20px;
-    font-weight: bold;
 }
 #bouton-orange {
     display:inline-flex;
     justify-content: center;
-    padding-left:50px;
     background-color:orange;
-    max-width: 75%;
-    height: 80px;
+    color: white;
+    font-weight: bold;
+    max-width:75%;
+    height: 50px;
     margin: 0 auto;
     align-content: center;
+    padding: 15px 20px;
+    border:2px solid white;
+    border-radius: 8px;
 
 }
 .deuxieme-cadre{
@@ -134,7 +141,7 @@ a {
     padding-left:25px;
 }
 .quatrieme-cadre{
-    height:60px;
+    height:100px;
     display:flex;
     justify-content: center;
 }
