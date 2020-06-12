@@ -26,22 +26,6 @@ header .logo-header-small{
     display:block;
     padding:10px 100px;
 }
-#menu_bot{
-    display:flex;
-    flex-direction: row;
-    align-content: left;
-}
-#menu_bot ul{
-    list-style: none;
-}
-#menu_bot ul li{
-    float:left;
-    padding-left: 10px;
-}
-#menu_bot > p {
-    padding-left:700px;
-    color:white;
-}
 .nav{
     display:flex;
     flex-direction: row;
@@ -56,8 +40,7 @@ header .logo-header-small{
     font-size: 18px;
     flex-direction: row;
     margin-left: 10px;
-    float: left;
-    
+    float: left; 
 }
 a {
     text-decoration: none;
@@ -66,9 +49,9 @@ a {
 .login{
     display:flex;
     flex-direction: row;
-    padding-left:400%;
+    padding-left:430%;
 }
-.premier-cadre {
+.premier-cadre{
     display:flex;
     max-width: auto;
     height:350px;
@@ -90,7 +73,7 @@ a {
     color:white;
     font-size: 20px;
 }
-#bouton-orange {
+#bouton-orange{
     display:inline-flex;
     justify-content: center;
     background-color:orange;
@@ -103,7 +86,6 @@ a {
     padding: 15px 20px;
     border:2px solid white;
     border-radius: 8px;
-
 }
 .deuxieme-cadre{
     max-width:auto;
@@ -125,8 +107,11 @@ a {
     display:flex;
     flex-direction: column;
     padding-left:100px;
-    padding-right: 100px;
+    padding-right:100px;
     padding-top: 50px;
+}
+.fourth-box{
+    padding-left: 160px;
 }
 .troisieme-cadre p ,h1{
     display: flex;
@@ -137,11 +122,11 @@ a {
     display: flex;
     justify-content: space-evenly;
 }
-.second-line{
-    padding-left:25px;
+.icone-msg-cadre3{
+    padding-top: 60px;
 }
 .quatrieme-cadre{
-    height:100px;
+    height:70px;
     display:flex;
     justify-content: center;
 }
@@ -158,20 +143,61 @@ a {
     background-color: rgb(238,238,238);
     justify-content: center;
     display:flex;
+    height: 200px;
 }
 .sixieme-cadre{
-    height:250px;
+    height:180px;
     display:flex;
     justify-content: center;
 }
 .buttons{
-    padding-top:100px; 
+    display: inline-flex;
+    align-content: center;
+    margin: 0 auto;
+    padding-top:70px; 
     padding-bottom:50px;
-    margin-left:40%;
-    justify-content: space-around;
 }
-.blue-buttons{
-    color:rgb(71, 71, 231)
+#bouton-bleu1{
+    display:inline-flex;
+    justify-content: center;
+    background-color: rgb(23, 23, 146);
+    color: white;
+    font-weight: bold;
+    max-width:75%;
+    height: 50px;
+    margin: 0 auto;
+    align-content: center;
+    padding: 15px 20px;
+    border:2px solid white;
+    border-radius: 8px;
+}
+#bouton-bleu2{
+    display:inline-flex;
+    justify-content: center;
+    background-color: rgb(23, 23, 146);
+    color: white;
+    font-weight: bold;
+    max-width:75%;
+    height: 50px;
+    margin: 0 auto;
+    align-content: center;
+    padding: 15px 20px;
+    border:2px solid white;
+    border-radius: 8px;
+}
+#bouton-orange2{
+    display:inline-flex;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    max-width:75%;
+    height: 50px;
+    margin: 0 auto;
+    align-content: center;
+    padding: 15px 20px;
+    border:2px solid white;
+    border-radius: 8px;
 }
 footer{
     display:flex;
@@ -183,4 +209,24 @@ footer{
     margin: 0px auto;
     height: 40px;
     margin-bottom: 0em;
+}
+#menu-fin{
+    display:flex;
+    flex-direction: row;
+    align-content: left;
+}
+#menu-fin ul{
+    list-style: none;
+}
+#menu-fin ul li{
+    float:left;
+    padding-left: 10px;
+}
+.copyright{
+    padding-left:700px;
+    color:white;
+}
+#msg-fin{
+    padding-left: 10px;
+    height: 30px;
 }
