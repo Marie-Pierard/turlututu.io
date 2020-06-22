@@ -1,16 +1,13 @@
+@import "variables.scss";
+@import "header.scss";
+//test commentaire invisible
+/*test commentaire visible*/
 body{
     max-width: auto;
     margin:0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-header{
-    display:flex;
-    flex-direction: row;
-    background-color: RGB(51,51,51)	;
-    margin-bottom: 0px auto;
-    height: 65px;
 }
 .top-left{
     display:flex;
@@ -44,7 +41,7 @@ header .logo-header-small{
 }
 a {
     text-decoration: none;
-    color:white;
+    color: $TextColor;
 }
 .login{
     display:flex;
@@ -56,6 +53,10 @@ a {
     max-width: auto;
     height:350px;
     background-color: RGB(30,147,204);
+        p{
+            color: $TextColor;
+            font-size: 20px;
+        }
 }
 .perso {
     padding-bottom: 50px;
@@ -69,14 +70,10 @@ a {
     padding-bottom: 100px;
     margin-left: 110px;
 }
-.premier-cadre p{
-    color:white;
-    font-size: 20px;
-}
 #bouton-orange{
     display:inline-flex;
     justify-content: center;
-    background-color:orange;
+    background-color:$OrangeButton;
     color: white;
     font-weight: bold;
     max-width:75%;
@@ -92,14 +89,15 @@ a {
     display:flex;
     margin:0 auto;
     height:60px;
+
+    p{
+        display:flex;
+        align-content: center;
+        font-size:20px;
+        font-weight:bold;
+        margin:0px auto;
+        padding-top:20px;
 }
-.deuxieme-cadre p{
-    display:flex;
-    align-content: center;
-    font-size:20px;
-    font-weight:bold;
-    margin:0px auto;
-    padding-top:20px;
 }
 .troisieme-cadre{
     height:350px;
@@ -109,13 +107,16 @@ a {
     padding-left:100px;
     padding-right:100px;
     padding-top: 50px;
-}
+            p{
+                display: flex;
+                color:$TextColor;
+                }
+            h1{display: flex;
+                color:$TextColor;
+                }
+            }
 .fourth-box{
     padding-left: 160px;
-}
-.troisieme-cadre p ,h1{
-    display: flex;
-    color:white;
 }
 .first-line{
     padding-left:25px;
@@ -129,14 +130,14 @@ a {
     height:70px;
     display:flex;
     justify-content: center;
-}
-.quatrieme-cadre p{
+    p{
     display:flex;
     align-content: center;
     font-size:20px;
     color:grey;
     margin:0px auto;
     padding-top:20px;
+}
 }
 .cinquieme-cadre{
     width: 100%;
@@ -160,7 +161,7 @@ a {
 #bouton-bleu1{
     display:inline-flex;
     justify-content: center;
-    background-color: rgb(23, 23, 146);
+    background-color: blue;
     color: white;
     font-weight: bold;
     max-width:75%;
@@ -174,7 +175,7 @@ a {
 #bouton-bleu2{
     display:inline-flex;
     justify-content: center;
-    background-color: rgb(23, 23, 146);
+    background-color: blue;
     color: white;
     font-weight: bold;
     max-width:75%;
@@ -188,7 +189,7 @@ a {
 #bouton-orange2{
     display:inline-flex;
     justify-content: center;
-    background-color: orange;
+    background-color: $OrangeButton;
     color: white;
     font-weight: bold;
     max-width:75%;
@@ -214,13 +215,13 @@ footer{
     display:flex;
     flex-direction: row;
     align-content: left;
-}
-#menu-fin ul{
+    ul{
     list-style: none;
-}
-#menu-fin ul li{
+        li{
     float:left;
     padding-left: 10px;
+        }
+    }
 }
 .copyright{
     padding-left:700px;
